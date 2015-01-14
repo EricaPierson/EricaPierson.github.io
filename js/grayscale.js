@@ -24,6 +24,16 @@ $(function() {
     });
 });
 
+//photography change background
+$(".download-section").hover(function(){
+    $(".download-section").addClass("photoActive");
+},
+function(){
+    $(".download-section").removeClass("photoActive"):
+}
+});
+
+
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();

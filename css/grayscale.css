@@ -36,6 +36,9 @@ p {
     line-height: 1.5;
 }
 
+.photoActive{
+    background-color: #999999;
+}
 @media(min-width:767px) {
     p {
         margin: 0 0 35px;
@@ -153,10 +156,13 @@ a:focus {
 
 .intro .intro-body .brand-heading {
     font-size: 40px;
+    text-shadow: 2px 2px 4px #000000 ;
 }
 
 .intro .intro-body .intro-text {
     font-size: 18px;
+    text-shadow: 2px 2px 4px #686868 
+    
 }
 
 @media(min-width:767px) {
@@ -167,10 +173,13 @@ a:focus {
 
     .intro .intro-body .brand-heading {
         font-size: 100px;
+        text-shadow: 2px 2px 4px #000000
     }
 
     .intro .intro-body .intro-text {
         font-size: 25px;
+        text-shadow: 2px 2px 4px #000000
+        
     }
 }
 
@@ -255,13 +264,18 @@ a:focus {
 .download-section {
     width: 100%;
     padding: 50px 0;
-    color: #fff;
+    color: #FFFFFF;
     background: url(../img/Nick.png) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    
+}
+.photoText{
+    text-shadow: 2px 2px 4px #000000; 
+
 }
 
 #map {
@@ -277,6 +291,9 @@ a:focus {
 
     .download-section {
         padding: 100px 0;
+        
+        
+
     }
 
     #map {
@@ -284,7 +301,10 @@ a:focus {
         margin-top: 250px;
     }
 }
+.photoText{
+    text-shadow: 2px 2px 4px #000000;
 
+}
 .btn {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
